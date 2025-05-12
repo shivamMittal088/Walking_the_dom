@@ -6,9 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="root">
 
-    </div>
+    <!-- If script is at starting of body .
+     <script> 
+        console.log(document.body)  // null
+        then it will log (null) because javascript is loaded before the body content loaded .
+    </script> 
+     hence javascript loaded at the last of the body content .
+    -->
+
+    <div id="root"></div>
 
 
     <script>
