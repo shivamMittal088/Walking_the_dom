@@ -5,6 +5,16 @@
 
       while using javascript we can create dynamic behaviour , which can be rendered without reload .
 
+
+#    <!-- If javascript is loaded at starting of body .
+     <script> 
+        console.log(document.body)  // null
+        then it will log (null) because javascript is loaded before the body content loaded .
+    </script> 
+     hence javascript loaded at the last of the body content .
+    -->
+
+
 #   🔤 textContent
     Sets or gets plain text only.(not any css apply .)
     Any HTML tags are treated as text, not parsed.
@@ -21,3 +31,9 @@
     ❌ Risk of XSS if content isn't sanitized
     ❌ Slightly slower than textContent  
 
+
+# The element which we create using react.createElement() is basically an object .
+   The react element is basically an object .
+   props = children + attribute .
+
+# The render() function is basicaly converting a React object into its corresponding html configuration .  
